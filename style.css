@@ -967,6 +967,21 @@ section {
     font-size: 1.6rem;
   }
 
+  .row .label label {
+  font-size: 1.6rem;
+
+  width: 100%;
+}
+
+.row .label input {
+  font-size: 1.4rem;
+  padding: 0.3rem 1rem;
+}
+.contact .row .email input {
+  font-size: 1.4rem;
+  text-transform: lowercase;
+}
+
   .row .label input[placeholder] {
     font-size: 1.4rem;
     padding: 0.4rem 0.8rem;
