@@ -687,6 +687,20 @@ section {
   flex-wrap: wrap;
 }
 
+.contact .row .label label {
+  font-size: 1.6rem;
+}
+
+.contact .row .label input {
+  font-size: 1.4rem;
+  padding: 0.3rem 1rem;
+}
+
+.contact .row .email input {
+    font-size: 1.4rem;
+    text-transform: lowercase;
+  }
+
 .contact .row form .inputBox .box,
 .contact .row form textarea {
   padding: 0.8rem 1rem;
