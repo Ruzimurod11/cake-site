@@ -866,17 +866,18 @@ section {
     width: 4rem;
   }
   .about .content p {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .banner-container .banner .content span {
     font-size: 2rem;
   }
 
+
   .products .box-container {
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60rem;
+    align-items: center;
   }
 
   .products .box-container .box {
@@ -884,21 +885,34 @@ section {
     background: #f3f3f3;
     text-align: center;
     overflow: hidden;
-    height: 43rem;
+    height: 90rem;
+    width: 60rem;
+    align-items: center;
+    align-content: center;
   }
-
+  
   .products .box-container .box .img {
-    height: 35rem;
-    /* width: 100%; */
+    height: 80rem;
+    width: 60rem;
+  }
+  .products .box-container .box .icons {
+    height: 43rem;
   }
 
   .products .box-container .box .content {
     height: 5rem;
+    width: 60rem;
+  }
+  .products .box-container .box .content h3 {
+    font-size: 2.4rem;
+  }
+  .products .box-container .box .content .price {
+    font-size: 2.1rem;
   }
 
   .products .box-container .box .img img {
-    height: 110%;
-    width: 80%;
+    height: 100%;
+    width: 60rem;
   }
   .category .box-container .box img {
     width: 100%;
@@ -907,12 +921,12 @@ section {
 
   .gallery .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
   }
 
   .gallery .box-container .box {
-    height: 25rem;
+    height: 40rem;
     overflow: hidden;
     position: relative;
   }
@@ -967,24 +981,9 @@ section {
     font-size: 1.6rem;
   }
 
-  .row .label label {
-  font-size: 1.6rem;
-
-  width: 100%;
-}
-
-.row .label input {
-  font-size: 1.4rem;
-  padding: 0.3rem 1rem;
-}
-.contact .row .email input {
-  font-size: 1.4rem;
-  text-transform: lowercase;
-}
-
-  .row .label input[placeholder] {
+  .row .email input {
     font-size: 1.4rem;
-    padding: 0.4rem 0.8rem;
+    text-transform: lowercase;
   }
 
   .row .label textarea[placeholder] {
