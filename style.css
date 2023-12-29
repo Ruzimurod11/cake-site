@@ -918,7 +918,7 @@ section {
   }
 
   .products .box-container .box .content {
-    height: 15vh;
+    height: 15%;
     width: 100%;
   }
   .products .box-container .box .content h3 {
@@ -930,7 +930,7 @@ section {
 
   .products .box-container .box .img img {
     height: 100%;
-    width: 95%;
+    width: 100%;
   }
   .category .box-container .box img {
     width: 100%;
