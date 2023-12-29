@@ -851,7 +851,7 @@ section {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 567px) {
   html {
     font-size: 50%;
   }
