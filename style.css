@@ -876,32 +876,34 @@ section {
   .products .box-container {
     display: flex;
     flex-wrap: wrap;
-    width: 60rem;
+    width: 100%;
     align-items: center;
   }
 
   .products .box-container .box {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: #f3f3f3;
     text-align: center;
     overflow: hidden;
-    height: 90rem;
-    width: 60rem;
+    height: 80%;
+    width: 100%;
     align-items: center;
     align-content: center;
   }
-  
+
   .products .box-container .box .img {
-    height: 80rem;
-    width: 60rem;
+    height: 70%;
+    width: 100%;
   }
   .products .box-container .box .icons {
-    height: 43rem;
+    height: 100%;
   }
 
   .products .box-container .box .content {
-    height: 5rem;
-    width: 60rem;
+    height: 10%;
+    width: 100%;
   }
   .products .box-container .box .content h3 {
     font-size: 2.4rem;
@@ -911,8 +913,8 @@ section {
   }
 
   .products .box-container .box .img img {
-    height: 100%;
-    width: 60rem;
+    height: 50%;
+    width: 100%;
   }
   .category .box-container .box img {
     width: 100%;
