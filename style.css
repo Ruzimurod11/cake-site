@@ -251,6 +251,10 @@ section {
   width: 100%;
   object-fit: cover;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  background: url(images/home-bg1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .banner-container .banner .content {
@@ -345,6 +349,7 @@ section {
   justify-content: center;
   background: rgba(243, 243, 243, 0.8);
   gap: 1.5rem;
+  z-index: 10;
 }
 
 .products .box-container .box .icons a {
@@ -366,6 +371,10 @@ section {
   height: 23rem;
   width: 100%;
   overflow: hidden;
+  background: url(images/home-bg1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .products .box-container .box .img img {
@@ -450,6 +459,10 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  background: url(images/home-bg1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .gallery .box-container .box:hover img {
@@ -649,6 +662,21 @@ section {
   border-radius: 50%;
 }
 
+.row .label label {
+  font-size: 1.6rem;
+
+  width: 100%;
+}
+
+.row .label input {
+  font-size: 1.4rem;
+  padding: 0.3rem 1rem;
+}
+.contact .row .email input {
+  font-size: 1.4rem;
+  text-transform: lowercase;
+}
+
 .contact .icons-container .icons h3 {
   color: #222;
   font-size: 2rem;
@@ -686,20 +714,6 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-.contact .row .label label {
-  font-size: 1.6rem;
-}
-
-.contact .row .label input {
-  font-size: 1.4rem;
-  padding: 0.3rem 1rem;
-}
-
-.contact .row .email input {
-    font-size: 1.4rem;
-    text-transform: lowercase;
-  }
 
 .contact .row form .inputBox .box,
 .contact .row form textarea {
@@ -851,7 +865,7 @@ section {
   }
 }
 
-@media (max-width: 567px) {
+@media only screen and (max-width: 567px) {
   html {
     font-size: 50%;
   }
@@ -866,7 +880,7 @@ section {
     width: 4rem;
   }
   .about .content p {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .banner-container {
     display: flex;
@@ -881,13 +895,18 @@ section {
     align-content: center;
   }
   .banner-container .banner img {
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    background: url(images/home-bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
   .banner-container .banner .content span {
     font-size: 2rem;
   }
 
+  /* yyyy */
 
   .products .box-container {
     display: flex;
@@ -912,6 +931,10 @@ section {
   .products .box-container .box .img {
     height: 90vh;
     width: 100%;
+    background: url(images/home-bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
   .products .box-container .box .icons {
     height: 100%;
@@ -953,6 +976,10 @@ section {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    background: url(images/home-bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
 
   .blogs .box-container {
